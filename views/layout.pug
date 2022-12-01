@@ -1,0 +1,25 @@
+doctype html
+html
+    head
+        title home automation
+        link(rel="stylesheet", href='style.css')
+
+    body
+        nav
+
+            ul
+                li
+                    img.logo(src="epo.jpg")
+                li
+                    a.active(href='/') temperature/humidité/luminosité
+                li
+                    a(href='/distance') allumage à distance
+                li
+                    a(href='/rfid') Gestion RFID
+
+        block content
+        br
+
+        footer
+            p Copyright &copy; EPO 2022 Genie industriel
+        script(src="interface.js")

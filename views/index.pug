@@ -1,0 +1,31 @@
+extends layout
+
+block content
+    main
+        div.container
+            div.row
+                div.card
+                    div.cardHeader
+                        h1 Temperature
+                        select.select(name='degree')
+                            option(value='0') celcius
+                            option(value='1') fahrenheit
+                            option(value='2') Kelvin
+
+                    div.box
+                        p valeur
+                        div.val
+                            strong 25
+                div.card
+                    h1 Humidité
+                    div.box
+                        p valeur
+                        div.val
+                            strong 18%
+                div.card
+                    h1 Luminosité
+
+                    div.box
+                        p valeur
+                        div.val
+                            strong 36%
